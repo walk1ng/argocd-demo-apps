@@ -14,3 +14,6 @@ spec:
     path: .
     repoURL: {{ .Values.spec.source.frontend.repoURL }}
     targetRevision: {{ .Values.spec.source.frontend.targetRevision }}
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
