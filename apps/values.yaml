@@ -89,5 +89,5 @@ spec:
       repoURL: https://github.com/walk1ng/react-ts-demo-client-kustomize
       targetRevision: HEAD
     backend:
-      repoURL: https://github.com/walk1ng/react-ts-demo-server-kustomize
+      repoURL: https://github.com/walk1ng/react-demo-server-kustomize
       targetRevision: HEAD
