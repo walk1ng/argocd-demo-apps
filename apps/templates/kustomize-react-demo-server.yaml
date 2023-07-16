@@ -11,7 +11,7 @@ spec:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: .
+    path: unsealed
     repoURL: {{ .Values.spec.source.backend.repoURL }}
     targetRevision: {{ .Values.spec.source.backend.targetRevision }}
   syncPolicy:
